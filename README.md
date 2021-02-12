@@ -45,4 +45,4 @@ plaintext, err := secreter.Decrypt(encrypt.Options{
 
 Check the full example [here](example/main.go) 
 
-If you want to generate keys for encryption you can use the following[binaries here](key-generator/)
+If you want to generate keys for encryption you can use the following [binaries here](key-generator/)
