@@ -1,0 +1,10 @@
+services:
+  vault:
+    container_name: vault
+    image: vault:latest
+    ports:
+      - "8200:8200"
+    environment:
+      VAULT_DEV_ROOT_TOKEN_ID: dev
+    cap_add:
+      - IPC_LOCK
